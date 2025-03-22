@@ -1,0 +1,238 @@
+.card1 {
+    height: 280px;
+    width: 240px;
+    background: rebeccapurple;
+    border-radius: 6px;
+}
+
+.card2 {
+    height: 280px;
+    width: 240px;
+    background: rebeccapurple;
+    border-radius: 6px;
+}
+
+.card3 {
+    height: 280px;
+    width: 240px;
+    background: rebeccapurple;
+    border-radius: 6px;
+}
+
+.card4 {
+    height: 280px;
+    width: 240px;
+    background: rebeccapurple;
+    border-radius: 6px;
+}
+
+.card5 {
+    height: 280px;
+    width: 240px;
+    background: rebeccapurple;
+    border-radius: 6px;
+}
+
+.card1 i {
+    display: flex;
+    color: #d900ff;
+    /* Neon pink */
+    justify-content: center;
+    font-size: 50px;
+}
+
+.card2 i {
+    display: flex;
+    color: #d900ff;
+    /* Neon pink */
+    justify-content: center;
+    font-size: 50px;
+}
+
+.card3 i {
+    display: flex;
+    color: #d900ff;
+    /* Neon pink */
+    justify-content: center;
+    font-size: 50px;
+}
+
+.card4 i {
+    display: flex;
+    color: #d900ff;
+    /* Neon pink */
+    justify-content: center;
+    font-size: 50px;
+}
+
+.card5 i {
+    display: flex;
+    color: #d900ff;
+    /* Neon pink */
+    justify-content: center;
+    font-size: 50px;
+}
+
+.card1 h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.card2 h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+.card3 h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.card4 h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.card5 h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+.card1 p {
+    font-size: 24px;
+    font-family: 'Calibri', 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.1;
+}
+
+.card2 p {
+    font-size: 25px;
+    font-family: 'Calibri', 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.1;
+}
+
+.card3 p {
+    font-size: 25px;
+    font-family: 'Calibri', 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.1;
+}
+
+.card4 p {
+    font-size: 22px;
+    font-family: 'Calibri', 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.1;
+}
+
+.card5 p {
+    font-size: 26px;
+    font-family: 'Calibri', 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.1;
+}
+
+.card-container h4 {
+    text-align: center;
+    font-size: medium;
+}
+
+.d {
+    height: 770px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    background: linear-gradient(135deg, #2c003e, #500a7d, #ff00ff);
+    animation: bgAnimation 6s infinite linear;
+    background-color: #2a0347;
+    margin-top: -50px;
+    margin-bottom: -58px;
+    padding: 10px;
+    width: 100%;
+}
+
+.d h1 {
+    padding-top: 60px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    margin-top: 80px;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    /* Aligns items in a row */
+    flex-wrap: wrap;
+    /* Moves cards to the next line if screen is small */
+    justify-content: center;
+    /* Centers cards horizontally */
+    gap: 60px;
+    /* Adds space between cards */
+    margin-top: 80px;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Aanimation*/
+
+.card1 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Scale up the card and add shadow on hover */
+
+.card1:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.card2 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.card3 {
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.card3:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.card4 {
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.card4:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.card5 {
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.card5:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}

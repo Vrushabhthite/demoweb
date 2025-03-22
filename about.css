@@ -1,0 +1,82 @@
+.card-container {
+    display: flex;
+    /* Aligns items in a row */
+    flex-wrap: wrap;
+    /* Moves cards to the next line if screen is small */
+    justify-content: center;
+    /* Centers cards horizontally */
+    gap: 60px;
+    /* Adds space between cards */
+    margin-top: 80px;
+}
+
+.device2 img {
+    width: 150px;
+    /* Adjust size */
+    height: 150px;
+    /* Keep width and height equal for a perfect circle */
+    border-radius: 50%;
+    object-fit: cover;
+    /* Ensures the image covers the full area */
+    border: 3px solid #a855f7;
+    /* Optional border */
+}
+
+.device2 img {
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.device2 img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.a {
+    background-color: rgba(66, 24, 88, 255);
+    height: 750px;
+    width: auto;
+    background: linear-gradient(135deg, #2c003e, #500a7d, #ff00ff);
+    animation: bgAnimation 6s infinite linear;
+}
+
+.right h2 {
+    font-size: 70px;
+    line-height: 2.9;
+}
+
+.right {
+    text-align: center;
+    font-size: 20px arial;
+    font-weight: bold;
+    padding-left: 700px;
+    text-align: justify;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.right p {
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-right: 180px;
+}
+
+.stat {
+    color: aqua;
+    font-size: 40px;
+    padding-left: 25px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}

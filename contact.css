@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left-section img {
+    height: 100%;
+    width: 100%;
+}
+
+.left-section h2,
+.left-section p,
+.left-section a {
+    margin-bottom: 20px;
+}
+
+.left-section a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 500px;
+}
+
+.text-overlay h2 {
+    padding-top: 20px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+.right-section {
+    width: 50%;
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
+}
+
+.right-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
