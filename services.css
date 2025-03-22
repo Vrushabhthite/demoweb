@@ -1,34 +1,38 @@
 .card1 {
     height: 280px;
-    width: 240px;
+    width: 100%;
+    max-width: 240px;
     background: rebeccapurple;
     border-radius: 6px;
 }
 
 .card2 {
     height: 280px;
-    width: 240px;
+    width: 100%;
+    max-width: 240px;
     background: rebeccapurple;
     border-radius: 6px;
 }
 
 .card3 {
     height: 280px;
-    width: 240px;
+    width: 100%;
+    max-width: 240px;
     background: rebeccapurple;
     border-radius: 6px;
 }
 
 .card4 {
-    height: 280px;
-    width: 240px;
+    width: 100%;
+    max-width: 240px;
     background: rebeccapurple;
     border-radius: 6px;
 }
 
 .card5 {
     height: 280px;
-    width: 240px;
+    width: 100%;
+    max-width: 240px;
     background: rebeccapurple;
     border-radius: 6px;
 }
@@ -175,7 +179,7 @@
     /* Moves cards to the next line if screen is small */
     justify-content: center;
     /* Centers cards horizontally */
-    gap: 60px;
+    gap: 30px;
     /* Adds space between cards */
     margin-top: 80px;
     color: white;
@@ -235,4 +239,40 @@
 .card5:hover {
     transform: scale(1.1);
     box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        /* Stack cards vertically */
+        align-items: center;
+        /* Center them */
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5 {
+        width: 90%;
+        /* Make cards take full width on small screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card1 h3,
+    .card2 h3,
+    .card3 h3,
+    .card4 h3,
+    .card5 h3 {
+        font-size: 22px;
+        /* Reduce heading size */
+    }
+    .card1 p,
+    .card2 p,
+    .card3 p,
+    .card4 p,
+    .card5 p {
+        font-size: 18px;
+        /* Reduce paragraph size */
+    }
 }
