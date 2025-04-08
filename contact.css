@@ -54,6 +54,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 150px;
+    box-shadow: inset 10px 10px 10px#a899ff, inset -10px -10px 10px #69ff66;
 }
 
 .right-section h2 {
